@@ -1,4 +1,7 @@
 module.exports = {
-  presets: ['jest-expo'],
+  preset: 'jest-expo',
   testPathIgnorePatterns: ['/node_modules/', '/e2e/'],
+  moduleNameMapper: {
+    '^@/(.*)$': '<rootDir>/src/$1',
+  },
 };
