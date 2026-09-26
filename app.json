@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "Personal Tracker",
+    "slug": "personal-tracker",
+    "version": "0.1.0",
+    "orientation": "default",
+    "scheme": "personaltracker",
+    "userInterfaceStyle": "automatic",
+    "plugins": ["expo-router"],
+    "web": { "bundler": "metro", "output": "static" },
+    "experiments": { "typedRoutes": true }
+  }
+}

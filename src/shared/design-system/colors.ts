@@ -1,0 +1,1 @@
+export const colors = { light: { background: '#ffffff', surface: '#f5f5f5', text: '#171717', primary: '#2563eb', border: '#d4d4d4' }, dark: { background: '#111111', surface: '#1f1f1f', text: '#f5f5f5', primary: '#60a5fa', border: '#404040' } } as const;
